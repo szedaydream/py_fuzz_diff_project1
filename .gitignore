@@ -1,0 +1,19 @@
+# Python 虚拟环境
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Python 缓存文件
+__pycache__/
+*.py[cod]
+*.so
+.Python
+
+# 其他临时文件
+*.log
+*.bak
+*.swp
+.DS_Store
