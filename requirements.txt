@@ -1,2 +1,4 @@
 atheris
-numpy
+ujson
+pandas
+matplotlib
