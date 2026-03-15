@@ -1,8 +1,8 @@
 import os
 
 # ========== 待测库 ==========
-LIB_A_NAME = "json"
-LIB_B_NAME = "ujson"
+LIB_A_NAME = "math"
+LIB_B_NAME = "numpy"
 
 # ========== 路径配置 ==========
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))

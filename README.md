@@ -11,7 +11,7 @@
    pip install -r requirements.txt
 
 2. 运行模糊测试
-   python fuzzer.py corpus/ -runs=10000
+   python fuzzer_numpy_vs_math.py corpus/ -runs=10000
    按 Ctrl+C 停止。
 
 3. 分析结果

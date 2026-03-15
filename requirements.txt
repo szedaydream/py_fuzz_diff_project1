@@ -1,4 +1,5 @@
 atheris
 ujson
+numpy
 pandas
 matplotlib

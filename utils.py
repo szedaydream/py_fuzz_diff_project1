@@ -25,6 +25,13 @@ def deep_compare_with_details(obj1, obj2, path=""):
     如果一致，返回 (True, None, None)
     如果不一致，返回 (False, 类别, 路径)
     """
+    # ----- 统一转换 NumPy 标量 -----
+    if hasattr(obj1, 'dtype'):
+        obj1 = obj1.item()
+    if hasattr(obj2, 'dtype'):
+        obj2 = obj2.item()
+    # ------------------------------------
+
     # 类型不同
     if type(obj1) != type(obj2):
         return False, DiffCategory.TYPE_MISMATCH, path
