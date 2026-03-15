@@ -1,10 +1,10 @@
 .PHONY: fuzz analyze clean
 
 fuzz:
-	python fuzzer.py corpus/
+	python fuzzer_numpy_vs_math.py corpus/
 
 analyze:
-	python analyzer.py
+	python analyzer_numpy_vs_math.py
 
 clean:
 	rm -rf corpus/ __pycache__ .pytest_cache
